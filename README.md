@@ -1,49 +1,46 @@
 # Tic-Tac-Game-AI
 
-منصوبہ: ایک سادہ Tic-Tac-Toe کھیل جس میں ایک آسان AI حریف موجود ہے۔ یہ مخزن `tic-tac.py` فائل پر مشتمل ہے جو کھیل چلانے کے لیے اسکریپٹ فراہم کرتی ہے۔
+Project: A simple Tic-Tac-Toe command-line game with an AI opponent. The repository contains a single script `tic-tac.py` that runs the game.
 
-**خصوصیات:**
-- کمانڈ لائن سے چلنے والا Tic-Tac-Toe کھیل
-- واحد کھلاڑی بمقابلہ کمپیوٹر (AI) کی سہولت
-- ہلکا اور سیدھا استعمال
+**Features:**
+- Command-line Tic-Tac-Toe game
+- Single-player mode against a basic AI
+- Lightweight and easy to run
 
-**ضروریات:**
-- Python 3.8 یا اس کے بعد کا ورژن
-- کوئی بیرونی پیکج درکار نہیں (اگر `tic-tac.py` میں مخصوص انحصار ہوں تو اسے نیچے اپڈیٹ کریں)
+**Requirements:**
+- Python 3.8 or newer
+- No external packages required (if `tic-tac.py` uses extra libraries, update requirements accordingly)
 
-**انسٹالیشن:**
-1. اس ریپوزیٹری کو کلون کریں یا ڈاؤن لوڈ کریں۔
-2. کمانڈ پر جائیں جہاں `tic-tac.py` موجود ہے۔
+**Installation & Run:**
+1. Clone or download this repository.
+2. Open a terminal in the project folder where `tic-tac.py` is located.
+
+Run the game with:
 
 ```bash
 python tic-tac.py
 ```
 
-یا اگر آپ کے سسٹم میں `python3` ہی کمانڈ ہو:
+Or, if your system uses `python3`:
 
 ```bash
 python3 tic-tac.py
 ```
 
-**استعمال (Usage):**
-- اوپر والی کمانڈ چلائیں، اور اسکرین پر دی گئی ہدایات پر عمل کریں۔
-- عام طور پر آپ کو کھیل شروع کرتے وقت اپنے نشان (X یا O) منتخب کرنے اور پھر نوبت پر حرکت داخل کرنے کی ہدایت ملے گی۔
+**Usage:**
+- Follow the prompts shown in the terminal. You will typically choose your marker (X or O) and enter moves when prompted.
 
-**AI کیسے کام کرتا ہے؟**
-- `tic-tac.py` میں شامل AI ایک بنیادی انتخابی منطق استعمال کرتی ہے تاکہ کھیل چیلنجنگ مگر تیزی سے چلنے والا رہے۔ (مزید تکنیکی تفصیل یا بہتریوں کے لیے فائل دیکھیں اور مطلوبہ اپڈیٹس بھیجیں)
+**AI Details:**
+- The AI included in `tic-tac.py` implements a basic move-selection strategy to provide a playable opponent. If you want a stronger AI, consider implementing the Minimax algorithm.
 
-**Contributing (شراکت):**
-- اگر آپ بہتریاں کرنا چاہتے ہیں تو فورک کر کے تبدیلیاں پیش کریں۔
-- بہتر AI الگورتھم (مثلاً Minimax)، GUI یا یونِٹ ٹیسٹس شامل کرنا مفید اضافے ہوں گے۔
+**Contributing:**
+- Fork the repo and create a pull request with improvements. Suggested enhancements: implement Minimax AI, add a GUI, or add unit tests.
 
 **License:**
-- اس منصوبے کے لیے کوئی مخصوص لائسنس شامل نہیں کیا گیا؛ اگر آپ چاہتے ہیں تو `LICENSE` فائل شامل کریں یا مجھ سے مدد مانگیں۔
+- No license file is included by default. To add one, create a `LICENSE` file in the repository (e.g., MIT, Apache-2.0). Ask me if you want a recommended license.
 
 ---
 
-Project: A simple Tic-Tac-Toe command-line game with an AI opponent. See `tic-tac.py` to inspect or modify the game logic.
-
-If you'd like, I can:
-- update the README with specific instructions after I inspect `tic-tac.py`
-- translate the whole README to English only
-- add a `requirements.txt` or a sample `LICENSE`
+If you want, I can also:
+- Inspect `tic-tac.py` and add exact run options or examples.
+- Create a `requirements.txt` or add a sample `LICENSE` file.
